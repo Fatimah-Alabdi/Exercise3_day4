@@ -115,19 +115,28 @@ for(int i=1;i<=100;i++){
         //6.Write a program that prompts the user to input a positive integer. It should then output a message indicating whether the number is a prime number.
       /*  Scanner scanner = new Scanner(System.in);
         int num;
-        int f=0;
+
         System.out.println("enter positive number :");
         num = scanner.nextInt();
-    for(int i = 1; i < num; i++){
-    if(num % i == 0){
-        System.out.println("is a prime number");
-    }
-    else
-        System.out.println("not prime number");
 
+     if(num<=1){
+         System.out.println(num+" is not a prime number");
 
+     }
+     if (num==2){
+         System.out.println(num+" is a prime number");
+     }
 
-}
+     if (num%2==0){
+         System.out.println(num+" is not a prime number");
+     }else
+         System.out.println(num+" is a prime number");
+     for(int i=3;i<=Math.sqrt(num);i=i+2){
+         if(num%i==0){
+             System.out.println(num+" is not a prime number");
+         }
+
+     }
     */
 
 
